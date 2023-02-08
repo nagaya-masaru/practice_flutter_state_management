@@ -28,3 +28,5 @@ class XxxPageState with _$XxxPageState {
 /// const factory XxxPageState({
 ///    ここに記述します
 /// }) = _XxxPageState;
+///
+/// @Default(ここに型に合う初期値（Stringなら空文字の''など）) 型 状態変数名
