@@ -18,6 +18,12 @@ class TimerArea extends StatelessWidget {
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
+        /// 以下のようにif文が使えない場所では
+        /// *TODO 「三項演算子」
+        /// を使用します
+        ///
+        /// 使用方法
+        /// TODO ::: 条件(bool) ? ここはtrueの場合 : ここはelseの場合
         Text(timerCount != 0 ? timerCount.toString() : 'タイマースタート！'),
         GestureDetector(
           onTap: () async {
